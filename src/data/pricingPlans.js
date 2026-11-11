@@ -1,0 +1,53 @@
+export const pricingPlans = [
+  {
+    id: 1,
+    name: "Starter",
+    price: "$299",
+    description: "Best for small businesses starting online.",
+    popular: false,
+    features: [
+      "1 landing page",
+      "Responsive design",
+      "Basic SEO setup",
+      "Contact form",
+      "3 days delivery",
+      "Email support",
+    ],
+    cta: "Choose Starter",
+  },
+  {
+    id: 2,
+    name: "Professional",
+    price: "$699",
+    description: "Best for growing businesses and startups.",
+    popular: true,
+    features: [
+      "Up to 5 pages",
+      "Custom UI design",
+      "Advanced SEO setup",
+      "Lead generation form",
+      "Speed optimization",
+      "7 days delivery",
+      "Priority support",
+    ],
+    cta: "Choose Professional",
+  },
+  {
+    id: 3,
+    name: "Enterprise",
+    price: "$1299",
+    description: "Best for companies that need a complete digital solution.",
+    popular: false,
+    features: [
+      "Up to 10 pages",
+      "Premium custom design",
+      "SEO + analytics setup",
+      "CMS / dashboard integration",
+      "Business automation support",
+      "14 days delivery",
+      "Dedicated support",
+    ],
+    cta: "Choose Enterprise",
+  },
+];
+
